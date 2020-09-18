@@ -26,6 +26,7 @@ module ActiveCampaign
     endpoint :pipelines
     endpoint :tags
     endpoint :users
+    endpoint :webhooks
 
     attr_reader :config
 
