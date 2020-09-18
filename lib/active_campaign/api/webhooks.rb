@@ -107,6 +107,10 @@ module ActiveCampaign
       def update_webhook(id, params)
         put("webhooks/#{id}", webhook: params)
       end
+
+      def show_webhook_events
+        get("webhook/events")
+      end
     end
   end
 end
